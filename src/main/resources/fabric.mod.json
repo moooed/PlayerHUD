@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "armors_heart_hui",
+  "version": "${version}",
+  "name": "Armors + Heart HUI",
+  "description": "A player target HUD showing hearts, armor and exact Totem of Undying count. Made By VipOwlMC.",
+  "authors": ["VipOwlMC"],
+  "license": "MIT",
+  "icon": "assets/armors_heart_hui/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.vipowlmc.armorsheart.ArmorsHeartHui"],
+    "client": ["com.vipowlmc.armorsheart.client.ArmorsHeartHuiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": ">=0.141.6+1.21.11"
+  }
+}
